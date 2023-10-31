@@ -1,7 +1,16 @@
-%
-% CIM-based Adaptive Resonance Theory with Edge and Age Forced (CAEAF)
-%
-function net = CAEAC_Attribute_Train(DATA, LABELS, maxLABEL, net)
+% 
+% (c) 2023 Naoki Masuyama
+% 
+% CIM-based ART with Edge and Ages (CAEA) Classifier Individual (CAEAC-I) is proposed in:
+% 
+% N. Masuyama, Y. Nojima, F. Dawood, and Z. Liu, "Class-wise classifier design capable of continual learning using adaptive resonance theory-based topological clustering," 
+% Applied Sciences, 2023.
+% 
+% Run "mainCAMD.m"
+% 
+% Please contact masuyama@omu.ac.jp if you have any problems.
+% 
+function net = CAEA_Attribute_Train(DATA, LABELS, maxLABEL, net)
 
 numNodes = net.numNodes;         % the number of nodes
 weight = net.weight;             % node position
