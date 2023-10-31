@@ -1,3 +1,13 @@
+% 
+% (c) 2023 Naoki Masuyama
+% 
+% CIM-based ART with Edge and Ages (CAEA) Classifier (CAEAC) is proposed in:
+% 
+% N. Masuyama, Y. Nojima, F. Dawood, and Z. Liu, "Class-wise classifier design capable of continual learning using adaptive resonance theory-based topological clustering," 
+% Applied Sciences, 2023.
+% 
+% Please contact masuyama@omu.ac.jp if you have any problems.
+% 
 function output = CAEAC_Test(testlabel, lastlabel, EstLabel)
 
 if isempty(lastlabel) == 1
