@@ -5,8 +5,7 @@
 
 CAEAC is proposed in:
 
-N. Masuyama, Y. Nojima, F. Dawood, and Z. Liu, "Class-wise classifier design capable of continual learning using adaptive resonance theory-based topological clustering," 
-Applied Sciences, 2023.
+N. Masuyama, Y. Nojima, F. Dawood, and Z. Liu, "Class-wise classifier design capable of continual learning using adaptive resonance theory-based topological clustering," Applied Sciences, vol. 13, no. 21, #11980, 2023.
 
 Run "mainCAEAC.m"
 
